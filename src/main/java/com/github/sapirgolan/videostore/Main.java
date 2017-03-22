@@ -19,6 +19,7 @@ public class Main {
         customer.addRental(new Rental(movie4, 1));
 
         System.out.println(customer.statement());
+        System.out.println(customer.htmlStatement());
         /*
         * Rental Record for Test customer
         * The godfather	2.0
